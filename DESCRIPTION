@@ -10,5 +10,5 @@ License: contact IGR Villejuif France
 Collate: 'clinic.R' 'CGH_annot.R' 'GE_annot.R' 'ge_cgh_locIGR.R'
         'histo.R' 'img.R' 'surv.R'
 Packaged: 2012-09-05 09:16:56 UTC; vf140245
-Depends: R >= 2.10
+Depends: R (>= 2.10)
 RoxygenNote: 6.0.1
