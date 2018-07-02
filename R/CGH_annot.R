@@ -7,9 +7,7 @@
 #' @format one instance, 1 row per probe
 #' @source IGR, Villejuif, France
 #' @author V Frouin, 2012-07-31
-#' @examples \dontrun{
-#' library(gliomaData)
-#' #read data
+#' @examples
 #' data(CGH_annot)
-#'}
+#' head(CGH_annot)
 NULL

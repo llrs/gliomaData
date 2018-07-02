@@ -9,8 +9,7 @@
 #' @format one instance, 1 row per patient
 #' @source IGR, Villejuif, France
 #' @author V Frouin, 2012-07-31
-#' @examples \dontrun{
-#' library(gliomaData)
+#' @examples
 #' #read data
 #' data(ge_cgh_locIGR)
 #' names(ge_cgh_locIGR)
@@ -24,5 +23,5 @@
 #' # and ylabel a vector of labels (1, 2, 3)
 #' head(ge_cgh_locIGR$ylabel,10)
 #' head(ge_cgh_locIGR$multiblocks$y,10)
-#'}
 NULL
+
