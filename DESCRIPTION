@@ -4,6 +4,7 @@ Title: High Grade Glioma data.
 Version: 0.4
 Date: 2012-07-27
 Author: C Philippe and V Frouin
+License: GPL (>= 2)
 Maintainer: <vincent.frouin@cea.fr>
 Description: High Grade Glioma data from the IGR Villejuif France, contact them for rights. 
 Collate: 'clinic.R' 'CGH_annot.R' 'GE_annot.R' 'ge_cgh_locIGR.R'
