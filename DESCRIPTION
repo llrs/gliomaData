@@ -1,14 +1,22 @@
-Package: gliomaData
 Type: Package
-Title: High Grade Glioma data.
-Version: 0.4
-Date: 2012-07-27
-Author: C Philippe and V Frouin
+Package: gliomaData
+Title: High Grade Glioma data
+Version: 0.5
+Authors@R: c(person(given = "Lluís", family = "Revilla Sancho",
+    role = "cre", email = "lluis.revilla@gmail.com", 
+    comment = c(ORCID = "0000-0001-9747-2570")))
+Description: High Grade Glioma data from the IGR Villejuif
+    France, contact them for rights.
 License: GPL (>= 2)
-Maintainer: <vincent.frouin@cea.fr>
-Description: High Grade Glioma data from the IGR Villejuif France, contact them for rights. 
-Collate: 'clinic.R' 'CGH_annot.R' 'GE_annot.R' 'ge_cgh_locIGR.R'
-        'histo.R' 'img.R' 'surv.R'
-Packaged: 2012-09-05 09:16:56 UTC; vf140245
-Depends: R (>= 2.10)
-RoxygenNote: 6.0.1
+Depends: 
+    R (>= 2.10)
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+Collate: 
+    clinic.R
+    CGH_annot.R
+    GE_annot.R
+    ge_cgh_locIGR.R
+    histo.R
+    img.R
+    surv.R
