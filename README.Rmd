@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# gliomaData
+
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.org/llrs/gliomaData.svg?branch=master)](https://travis-ci.org/llrs/gliomaData)
+<!-- badges: end -->
+
+The goal of gliomaData is to provide data for RGCCA vignettes.
+
+## Installation
+
+You can install the released version of gliomaData from [GitGhub](https://github.com/llrs/gliomaData) with:
+
+```{r, eval=FALSE}
+devtools::install("llrs/gliomaData")
+```
+
+The original version of the data can be found [here](http://biodev.cea.fr/sgcca/).
+
+## Examples
+
+Some data provided by the package:
+
+```{r}
+library(gliomaData)
+data(clinic)
+clinic[1:5, 1:10]
+```
