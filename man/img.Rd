@@ -4,7 +4,9 @@
 \name{img}
 \alias{img}
 \title{Scoring from the neuroimaging of the patient}
-\format{one instance, 1 row per patient}
+\format{
+one instance, 1 row per patient
+}
 \source{
 IGR, Villejuif, France
 }

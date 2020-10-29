@@ -4,7 +4,9 @@
 \name{surv}
 \alias{surv}
 \title{Survival information from on the patient}
-\format{one instance, 1 row per patient}
+\format{
+one instance, 1 row per patient
+}
 \source{
 IGR, Villejuif, France
 }

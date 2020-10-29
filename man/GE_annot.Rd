@@ -4,7 +4,9 @@
 \name{GE_annot}
 \alias{GE_annot}
 \title{Gene expression annotations}
-\format{one instance, 1 row per probe}
+\format{
+one instance, 1 row per probe
+}
 \source{
 IGR, Villejuif, France
 }
