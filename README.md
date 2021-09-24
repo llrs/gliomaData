@@ -7,6 +7,9 @@
 
 [![Travis build
 status](https://travis-ci.org/llrs/gliomaData.svg?branch=master)](https://travis-ci.org/llrs/gliomaData)
+[![Lifecycle:
+dormant](https://img.shields.io/badge/lifecycle-dormant-blue.svg)](https://www.tidyverse.org/lifecycle/#dormant)
+[![R-CMD-check](https://github.com/llrs/gliomaData/workflows/R-CMD-check/badge.svg)](https://github.com/llrs/gliomaData/actions)
 <!-- badges: end -->
 
 The goal of gliomaData is to provide data for RGCCA vignettes.
@@ -17,11 +20,14 @@ You can install the released version of gliomaData from
 [GitGhub](https://github.com/llrs/gliomaData) with:
 
 ``` r
-devtools::install("llrs/gliomaData")
+remotes::install_github("llrs/gliomaData")
 ```
 
 The original version of the data can be found
 [here](http://biodev.cea.fr/sgcca/).
+
+You might get an error installing like this and might need to download
+the tar.gz file and then install it from there.
 
 ## Examples
 
